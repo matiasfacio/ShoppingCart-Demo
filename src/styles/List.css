@@ -1,0 +1,100 @@
+.grid-container-list {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 45vw;
+  color: white;
+  line-height: 1.6;
+}
+
+.title-list {
+  color: white;
+  padding: 10px;
+  background-color: #505868;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.element-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  width: 90%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  background-color: #505868;
+  margin-bottom: 20px;
+  box-shadow: #000000 2px 2px 5px;
+  border-radius: 10px;
+  transition: all 500ms ease-in-out;
+}
+
+.element-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 1px 1px 15px black;
+}
+
+.element-text {
+  padding-left: 20px;
+  width: 30vw;
+}
+
+#product-id {
+  color: lightblue;
+  font-weight: 600;
+}
+
+button {
+  background-color: lightblue;
+  color: black;
+  font-size: 1em;
+  font-weight: 500;
+  height: 30px;
+  min-width: 100px;
+  border-radius: 10px;
+  outline: none;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: rgb(26, 25, 25);
+  color: white;
+  outline: none;
+}
+
+button:active {
+  background-color: #282c34;
+  color: white;
+  outline: none;
+}
+
+.picList {
+  border: 1px white solid;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+
+/* .picList:hover {
+    transform: scale(3.5) translate(2vw, 0vh);
+    border: 3px white solid
+  } */
+
+.product-name-list {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.buttonPagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 45vw;
+}
